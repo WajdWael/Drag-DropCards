@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop Cards</title>
+    <!-- ==== CSS FILE ==== -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- ==== BOX ICONS ==== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <!-- ==== THE CONTAINER ==== -->
+    <div class="drop">
+        <div class="drop-container" id="drop-item">
+            <!-- === first card === -->
+            <div class="drop-card">
+                <div class="drop-data">
+                    <img src="./imgs/img1.jpg" alt="person" class="drop-img">
+
+                    <div>
+                        <h1 class="drop-name">caly</h1>
+                        <span class="drop-profession">Web Developer</span>
+                    </div>
+                </div>
+
+                <div>
+                    <a href="#" class="drop-social"><i class='bx bxl-instagram'></i></a>
+                    <a href="#" class="drop-social"><i class='bx bxl-facebook' ></i></a>
+                    <a href="#" class="drop-social"><i class='bx bxl-twitter' ></i></a>
+                </div>
+            </div> 
+            <!-- === end of first card === -->
+
+            <!-- === second card === -->
+            <div class="drop-card">
+                <div class="drop-data">
+                    <img src="./imgs/img2.jpg" alt="person" class="drop-img">
+
+                    <div>
+                        <h1 class="drop-name">John merfi</h1>
+                        <span class="drop-profession">Graphic Designer</span>
+                    </div>
+                </div>
+
+                <div>
+                    <a href="#" class="drop-social"><i class='bx bxl-instagram'></i></a>
+                    <a href="#" class="drop-social"><i class='bx bxl-facebook' ></i></a>
+                    <a href="#" class="drop-social"><i class='bx bxl-twitter' ></i></a>
+                </div>
+            </div> 
+            <!-- === end of second card === -->
+            <!-- === third card === -->
+            <div class="drop-card">
+                <div class="drop-data">
+                    <img src="./imgs/img3.jpg" alt="person" class="drop-img">
+
+                    <div>
+                        <h1 class="drop-name">Robbie Ford</h1>
+                        <span class="drop-profession">Ui/Ux Designer</span>
+                    </div>
+                </div>
+
+                <div>
+                    <a href="#" class="drop-social"><i class='bx bxl-instagram'></i></a>
+                    <a href="#" class="drop-social"><i class='bx bxl-facebook' ></i></a>
+                    <a href="#" class="drop-social"><i class='bx bxl-twitter' ></i></a>
+                </div>
+            </div>
+            <!-- === End of thitd card  === -->
+
+            <!-- === last card (4) === -->
+            <div class="drop-card">
+                <div class="drop-data">
+                    <img src="./imgs/img4.jpg" alt="person" class="drop-img">
+
+                    <div>
+                        <h1 class="drop-name">Janney Lista</h1>
+                        <span class="drop-profession">Digital Marketing</span>
+                    </div>
+                </div>
+
+                <div>
+                    <a href="#" class="drop-social"><i class='bx bxl-instagram'></i></a>
+                    <a href="#" class="drop-social"><i class='bx bxl-facebook' ></i></a>
+                    <a href="#" class="drop-social"><i class='bx bxl-twitter' ></i></a>
+                </div>
+            </div>
+            <!-- === end of last card (4) === -->
+        </div>
+    </div>
+
+    <!--===== SORTABLE JS =====-->
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="./main.js"></script>
+</body>
+</html>
